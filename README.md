@@ -25,6 +25,8 @@ easily install mod_swift.
 
 ### Install on macOS using Homebrew
 
+Got no Homebrew? [Get it!](https://brew.sh)
+
 Before you install mod_swift, we highly recommend that you install or reinstall
 the Homebrew Apache w/ HTTP/2 and the MPM event module:
 
