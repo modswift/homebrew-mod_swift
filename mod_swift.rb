@@ -13,8 +13,8 @@ class ModSwift < Formula
 
   desc "Write Apache Modules in Swift!"
   homepage "http://mod-swift.org"
-  url "https://github.com/modswift/mod_swift/archive/0.8.2.tar.gz"
-  sha256 "ad46e06ed75f5182c28b23e17753352a92106a4dc3caebb3beadd5969f6a8d77"
+  url "https://github.com/modswift/mod_swift/archive/0.8.3.tar.gz"
+  sha256 "feeb3d933634847c4c0037da55a6c42339802d45470ee65551ff5ce43ed41e2e"
   
   option "with-system-httpd", "Use macOS system Apache httpd 2.4"
   option "with-homebrew-httpd24", "Use Homebrew Apache httpd 2.4" # noop
@@ -22,9 +22,10 @@ class ModSwift < Formula
   # TBD: can we recommend => [ "with-http2", "with-mpm-event" ] w/o
   #      a hard require?
   depends_on "xmlstarlet"
+  depends_on "jq"
+  depends_on "pkg-config"
   depends_on "homebrew/apache/httpd24" if build.without?("system-httpd")
   depends_on CLTRequirement            if build.with?("system-httpd")
-  depends_on "xmlstarlet"
   
   if build.with?("with-system-httpd") && build.with?("homebrew-httpd24")
     onoe "Cannot build for system httpd and brew httpd24 at the same time"

@@ -23,6 +23,9 @@ easily install mod_swift.
 
 ## Installation
 
+More detailed instructions can be found in the
+[mod_swift documentation](http://docs.mod-swift.org/install/).
+
 ### Install on macOS using Homebrew
 
 Got no Homebrew? [Get it!](https://brew.sh)
@@ -41,26 +44,6 @@ Then add the mod_swift tap and install mod_swift:
     brew install mod_swift
 
 *(yes, the account is just modswift w/o underscore due to GitHub limitations)*
-
-### Install on Linux (or macOS w/o Homebrew)
-
-On macOS: We strongly advise that you rather use Homebrew, more importantly
-          the Apache provided by Homebrew.
-
-Ubuntu packages required (assuming you have Swift 3 installed already):
-
-    apt-get install \
-       pkg-config libapr1-dev libaprutil1-dev \
-       libxml2 apache2 apache2-dev \
-       libnghttp2-dev \
-       libaprutil1-dbd-sqlite3 \
-       libaprutil1-dbd-pgsql
-
-Install:
-
-    make install
-    
-Thats it ;-)
 
 ## Check whether the installation is OK:
 
@@ -90,4 +73,6 @@ Checkout our website: [mod-swift.org](http://mod-swift.org/).
 We like feedback, GitHub stars, cool contract work,
 presumably any form of praise you can think of.
 
-There is a `#mod_swift` channel on the [Noze.io Slack](http://slack.noze.io).
+There is a `#mod_swift` channel on the [Noze.io Slack](http://slack.noze.io)
+if you have any questions.
+
