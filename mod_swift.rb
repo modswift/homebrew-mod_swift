@@ -13,8 +13,8 @@ class ModSwift < Formula
 
   desc "Write Apache Modules in Swift!"
   homepage "http://mod-swift.org"
-  url "https://github.com/modswift/mod_swift/archive/0.8.5.tar.gz"
-  sha256 "12760b60d37928ac6f9414b60c47e373db815f9bcac9d171584d5eed0fe4d982"
+  url "https://github.com/modswift/mod_swift/archive/0.8.6.tar.gz"
+  sha256 "764a53f2bb161208ad98ce0b4b698d3b16ef5bfc249258c0bac10466b0b0a355"
   
   option "with-system-httpd", "Use macOS system Apache httpd 2.4"
   option "with-homebrew-httpd24", "Use Homebrew Apache httpd 2.4" # noop
