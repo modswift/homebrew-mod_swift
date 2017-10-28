@@ -33,8 +33,7 @@ Got no Homebrew? [Get it!](https://brew.sh)
 Before you install mod_swift, we highly recommend that you install or reinstall
 the Homebrew Apache w/ HTTP/2 and the MPM event module:
 
-    brew tap homebrew/apache
-    brew reinstall httpd24 --with-mpm-event --with-http2
+    brew reinstall httpd --with-mpm-event --with-http2
 
 You can also add `--with-privileged-ports` if you want to use such.
 
