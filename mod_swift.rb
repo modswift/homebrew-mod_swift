@@ -60,7 +60,7 @@ class ModSwift < Formula
     system "make", "install"
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<~EOS
     You must manually edit #{apache_configdir}/httpd.conf to include
       LoadModule swift_module #{libexec}/mod_swift.so
 
