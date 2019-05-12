@@ -5,6 +5,8 @@
 
 ![Apache 2](https://img.shields.io/badge/apache-2-yellow.svg)
 ![Swift3](https://img.shields.io/badge/swift-3-blue.svg)
+![Swift4](https://img.shields.io/badge/swift-4-blue.svg)
+![Swift5](https://img.shields.io/badge/swift-5-blue.svg)
 ![macOS](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
 ![tuxOS](https://img.shields.io/badge/os-tuxOS-green.svg?style=flat)
 
@@ -57,7 +59,7 @@ You can call `swift apache validate` to make sure the installation is OK:
     product:   /Users/helge/dev/Swift/Apex3/.build/mods_Apex3.so
     apxs:      /usr/local/bin/apxs
     mod_swift: /usr/local
-    swift:     3.1.0
+    swift:     5.0.1
     cert:      self-signed-mod_swift-localhost-server.crt
     http/2:    yes
 
